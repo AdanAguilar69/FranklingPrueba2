@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
-
-const lalargaComponent = ({ words }) => {
+const LalargaComponent = ({ words }) => {
   // 1. Utilizamos el hook useState para crear una variable de estado llamada 'lalarga' e inicializarla con una cadena vacía.
   const [lalarga, setlalarga] = useState('');
 
@@ -35,4 +34,4 @@ const lalargaComponent = ({ words }) => {
   );
 };
 
-export default lalargaComponent;
+export default LalargaComponent;
